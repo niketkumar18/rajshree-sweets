@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Login to your Rajshree Sweets customer account."
+    >
+
+    <title>Login | Rajshree Sweets</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="container header-content">
+
+            <a href="index.html" class="brand">
+                <span class="brand-name">Rajshree Sweets</span>
+            </a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+
+                <a href="index.html">Home</a>
+                <a href="index.html#products">Products</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="register.html">Register</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        Welcome Back
+                    </p>
+
+                    <h1>
+                        Customer Login
+                    </h1>
+
+                    <p>
+                        Login to access your Rajshree Sweets account.
+                    </p>
+
+                </div>
+
+
+                <form
+                    class="customer-form"
+                    action="/customers/login"
+                    method="post"
+                >
+
+                    <fieldset>
+
+                        <legend>Login Details</legend>
+
+
+                        <label for="loginEmail">
+                            Email Address
+                        </label>
+
+                        <input
+                            id="loginEmail"
+                            name="email"
+                            type="email"
+                            autocomplete="email"
+                            required
+                        >
+
+
+                        <label for="loginPassword">
+                            Password
+                        </label>
+
+                        <input
+                            id="loginPassword"
+                            name="password"
+                            type="password"
+                            autocomplete="current-password"
+                            required
+                        >
+
+
+                        <label class="terms-checkbox">
+
+                            <input
+                                type="checkbox"
+                                name="rememberMe"
+                                value="true"
+                            >
+
+                            Remember Me
+
+                        </label>
+
+                    </fieldset>
+
+
+                    <div class="form-actions">
+
+                        <button type="submit">
+                            Login
+                        </button>
+
+                        <a
+                            href="register.html"
+                            class="button secondary-button"
+                        >
+                            Create Account
+                        </a>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <p>
+                &copy; 2026 Rajshree Sweets.
+            </p>
+
+            <p>
+                Traditional Taste. Premium Quality.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

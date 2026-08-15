@@ -4,137 +4,478 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajshree Sweets</title>
+
+    <meta
+        name="description"
+        content="Rajshree Sweets - Traditional Indian sweets, fresh snacks and festival specials."
+    >
+
+    <title>Rajshree Sweets | Traditional Indian Sweets</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body bgcolor="#dc4d01">
+<body>
 
-    <header>
+    <header class="site-header">
 
-        <h1>Rajshree Sweets</h1>
+        <div class="container header-content">
+
+            <a href="index.html" class="brand">
+                <span class="brand-name">Rajshree Sweets</span>
+            </a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+
+                <a href="index.html">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="login.html">Login</a>
+                <a href="register.html" class="nav-cta">Register</a>
+
+            </nav>
+
+        </div>
 
     </header>
 
-    <nav>
 
-        <a href="#">Home</a>
+    <main>
 
-        <a href="#">Products</a>
+        <!-- Hero Section -->
 
-        <a href="#">About</a>
+        <section class="hero">
 
-        <a href="#">Contact</a>
+            <div class="container hero-content">
 
-    </nav>
+                <div class="hero-text">
 
-    <section>
+                    <p class="eyebrow">
+                        Traditional Taste • Freshly Prepared
+                    </p>
 
-        <h2>About Us</h2>
+                    <h1>
+                        Celebrating Every Occasion
+                        With Authentic Indian Sweets
+                    </h1>
 
-        <p>
-            Rajshree Sweets is known for delicious traditional Indian sweets,
-            fresh snacks, and quality products made with care.
-        </p>
+                    <p>
+                        Discover delicious traditional sweets, fresh snacks
+                        and festive favorites made with care.
+                    </p>
 
-    </section>
+                    <div class="hero-actions">
 
-    <section>
+                        <a href="#products" class="button primary-button">
+                            Explore Sweets
+                        </a>
 
-        <h2>Today's Special</h2>
+                        <a href="register.html" class="button secondary-button">
+                            Become a Customer
+                        </a>
 
-        <img src="assets/images/kaju-katli.jpg" alt="Kaju Katli" width="300">
+                    </div>
 
-        <p>Fresh Kaju Katli prepared today.</p>
+                </div>
 
-    </section>
+                <div class="hero-image">
 
-    <section>
+                    <img
+                        src="assets/images/kaju-katli.jpg"
+                        alt="Fresh Kaju Katli from Rajshree Sweets"
+                    >
 
-        <h2>Our Categories</h2>
+                </div>
 
-        <ul>
+            </div>
 
-            <li>Traditional Sweets</li>
+        </section>
 
-            <li>Namkeen</li>
 
-            <li>Bakery Items</li>
+        <!-- About Section -->
 
-            <li>Festival Specials</li>
+        <section id="about" class="section">
 
-        </ul>
+            <div class="container">
 
-    </section>
+                <div class="section-heading">
 
-    <section>
+                    <p class="eyebrow">
+                        About Rajshree
+                    </p>
 
-        <h2>Price List</h2>
+                    <h2>
+                        Tradition You Can Taste
+                    </h2>
 
-        <table border="1">
+                </div>
 
-            <tr>
+                <p class="section-description">
 
-                <th>Sweet</th>
+                    Rajshree Sweets is known for delicious traditional Indian
+                    sweets, fresh snacks and quality products made with care.
+                    Whether it is a festival, celebration or simply a craving
+                    for something sweet, we bring authentic flavors to every occasion.
 
-                <th>Price (per kg)</th>
+                </p>
 
-            </tr>
+            </div>
 
-            <tr>
+        </section>
 
-                <td>Kaju Katli</td>
 
-                <td>₹1300</td>
+        <!-- Products Section -->
 
-            </tr>
+        <section id="products" class="section section-light">
 
-            <tr>
+            <div class="container">
 
-                <td>Mysore Pak</td>
+                <div class="section-heading">
 
-                <td>₹700</td>
+                    <p class="eyebrow">
+                        Our Favorites
+                    </p>
 
-            </tr>
+                    <h2>
+                        Today's Special
+                    </h2>
 
-            <tr>
+                    <p>
+                        Freshly prepared favorites from Rajshree Sweets.
+                    </p>
 
-                <td>Gulab Jamun</td>
+                </div>
 
-                <td>₹700</td>
 
-            </tr>
+                <div class="product-grid">
 
-        </table>
+                    <article class="product-card">
 
-    </section>
+                        <img
+                            src="assets/images/kaju-katli.jpg"
+                            alt="Kaju Katli"
+                        >
 
-    <section>
+                        <div class="product-card-content">
 
-        <h2>Contact Us</h2>
+                            <h3>Kaju Katli</h3>
 
-        <p>📍 Bangalore, Karnataka</p>
+                            <p>
+                                Premium cashew sweet with a delicate,
+                                melt-in-your-mouth texture.
+                            </p>
 
-        <p>
-            📞
-            <a href="tel:+917975849082">
-                +91 7975849082
-            </a>
-        </p>
+                            <div class="product-footer">
 
-        <p>
-            📧
-            <a href="mailto:sribhog2026@gmail.com">
-                sribhog2026@gmail.com
-            </a>
-        </p>
+                                <strong>₹1300 / kg</strong>
 
-    </section>
+                                <button type="button">
+                                    Order Now
+                                </button>
 
-    <footer>
+                            </div>
 
-        <p>&copy; 2023 Rajshree Sweets. All rights reserved.</p>
+                        </div>
+
+                    </article>
+
+
+                    <article class="product-card ">
+                         <img
+                            src="assets/images/mysore-pak.jpg"
+                            alt="Mysore Pak"
+                        >
+
+                        <div class="product-card-content">
+
+                            <h3>Mysore Pak</h3>
+
+                            <p>
+                                A rich traditional sweet prepared with
+                                gram flour, ghee and sugar.
+                            </p>
+
+                            <div class="product-footer">
+
+                                <strong>₹700 / kg</strong>
+
+                                <button type="button">
+                                    Order Now
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="product-card ">
+                         <img
+                            src="assets/images/gulab-jamun.jpg"
+                            alt="Gulab Jamun"
+                        >
+
+                        <div class="product-card-content">
+
+                            <h3>Gulab Jamun</h3>
+
+                            <p>
+                                Soft and delicious Indian dessert served
+                                with fragrant sugar syrup.
+                            </p>
+
+                            <div class="product-footer">
+
+                                <strong>₹700 / kg</strong>
+
+                                <button type="button">
+                                    Order Now
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Categories -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        Explore
+                    </p>
+
+                    <h2>
+                        Our Categories
+                    </h2>
+
+                </div>
+
+
+                <div class="category-grid">
+
+                    <article class="category-card">
+
+                        <h3>Traditional Sweets</h3>
+
+                        <p>
+                            Classic Indian sweets prepared with authentic recipes.
+                        </p>
+
+                    </article>
+
+
+                    <article class="category-card">
+
+                        <h3>Namkeen</h3>
+
+                        <p>
+                            Fresh and flavorful savory snacks for every occasion.
+                        </p>
+
+                    </article>
+
+
+                    <article class="category-card">
+
+                        <h3>Bakery Items</h3>
+
+                        <p>
+                            Delicious bakery favorites for everyday celebrations.
+                        </p>
+
+                    </article>
+
+
+                    <article class="category-card">
+
+                        <h3>Festival Specials</h3>
+
+                        <p>
+                            Special selections for Diwali, weddings and celebrations.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Price List -->
+
+        <section class="section section-light">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        Simple & Transparent
+                    </p>
+
+                    <h2>
+                        Price List
+                    </h2>
+
+                </div>
+
+
+                <div class="table-wrapper">
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+                                <th scope="col">Sweet</th>
+                                <th scope="col">Price / kg</th>
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>Kaju Katli</td>
+                                <td>₹1300</td>
+                            </tr>
+
+                            <tr>
+                                <td>Mysore Pak</td>
+                                <td>₹700</td>
+                            </tr>
+
+                            <tr>
+                                <td>Gulab Jamun</td>
+                                <td>₹700</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Customer CTA -->
+
+        <section class="customer-cta">
+
+            <div class="container customer-cta-content">
+
+                <div>
+
+                    <p class="eyebrow">
+                        Join Rajshree
+                    </p>
+
+                    <h2>
+                        Become Our Customer
+                    </h2>
+
+                    <p>
+                        Register to receive festival offers, new product
+                        updates and exclusive discounts.
+                    </p>
+
+                </div>
+
+                <a href="register.html" class="button primary-button">
+                    Register Now
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact -->
+
+        <section id="contact" class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        Get In Touch
+                    </p>
+
+                    <h2>
+                        Contact Us
+                    </h2>
+
+                </div>
+
+                <div class="contact-list">
+
+                    <p>
+                        📍 Bangalore, Karnataka
+                    </p>
+
+                    <p>
+                        📞
+                        <a href="tel:+917975849082">
+                            +91 7975849082
+                        </a>
+                    </p>
+
+                    <p>
+                        📧
+                        <a href="mailto:sribhog2026@gmail.com">
+                            sribhog2026@gmail.com
+                        </a>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <p>
+                &copy; 2026 Rajshree Sweets. All rights reserved.
+            </p>
+
+            <p>
+                Traditional Taste. Premium Quality.
+            </p>
+
+        </div>
 
     </footer>
+
+
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>

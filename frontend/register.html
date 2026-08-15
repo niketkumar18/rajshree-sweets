@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Register as a Rajshree Sweets customer."
+    >
+
+    <title>Register | Rajshree Sweets</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="container header-content">
+
+            <a href="index.html" class="brand">
+                <span class="brand-name">Rajshree Sweets</span>
+            </a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+
+                <a href="index.html">Home</a>
+                <a href="index.html#products">Products</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="login.html">Login</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        Join Rajshree
+                    </p>
+
+                    <h1>
+                        Create Your Customer Account
+                    </h1>
+
+                    <p>
+                        Register to receive festival offers,
+                        product updates and exclusive discounts.
+                    </p>
+
+                </div>
+
+
+                <form
+                    class="customer-form"
+                    action="/customers/register"
+                    method="post"
+                >
+
+                    <fieldset>
+
+                        <legend>Personal Information</legend>
+
+                        <label for="fullName">
+                            Full Name
+                        </label>
+
+                        <input
+                            id="fullName"
+                            name="fullName"
+                            type="text"
+                            autocomplete="name"
+                            required
+                        >
+
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            autocomplete="email"
+                            required
+                        >
+
+
+                        <label for="password">
+                            Password
+                        </label>
+
+                        <input
+                            id="password"
+                            name="password"
+                            type="password"
+                            autocomplete="new-password"
+                            minlength="6"
+                            required
+                        >
+
+                    </fieldset>
+
+
+                    <fieldset>
+
+                        <legend>Contact Information</legend>
+
+                        <label for="phoneNumber">
+                            Mobile Number
+                        </label>
+
+                        <input
+                            id="phoneNumber"
+                            name="phoneNumber"
+                            type="tel"
+                            autocomplete="tel"
+                            pattern="[0-9]{10}"
+                            placeholder="10 digit mobile number"
+                            required
+                        >
+
+
+                        <label for="dateOfBirth">
+                            Date of Birth
+                        </label>
+
+                        <input
+                            id="dateOfBirth"
+                            name="dateOfBirth"
+                            type="date"
+                        >
+
+
+                        <p class="form-label">
+                            Gender
+                        </p>
+
+                        <div class="radio-group">
+
+                            <label>
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value="MALE"
+                                >
+                                Male
+                            </label>
+
+                            <label>
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value="FEMALE"
+                                >
+                                Female
+                            </label>
+
+                            <label>
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value="OTHER"
+                                >
+                                Other
+                            </label>
+
+                        </div>
+
+                    </fieldset>
+
+
+                    <fieldset>
+
+                        <legend>Preferences</legend>
+
+                        <p class="form-label">
+                            Favorite Sweets
+                        </p>
+
+                        <div class="checkbox-group">
+
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    name="favoriteSweets"
+                                    value="KAJU_KATLI"
+                                >
+                                Kaju Katli
+                            </label>
+
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    name="favoriteSweets"
+                                    value="GULAB_JAMUN"
+                                >
+                                Gulab Jamun
+                            </label>
+
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    name="favoriteSweets"
+                                    value="MYSORE_PAK"
+                                >
+                                Mysore Pak
+                            </label>
+
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    name="favoriteSweets"
+                                    value="RASGULLA"
+                                >
+                                Rasgulla
+                            </label>
+
+                        </div>
+
+
+                        <label for="profilePhoto">
+                            Profile Photo
+                        </label>
+
+                        <input
+                            id="profilePhoto"
+                            name="profilePhoto"
+                            type="file"
+                            accept="image/*"
+                        >
+
+
+                        <label class="terms-checkbox">
+
+                            <input
+                                type="checkbox"
+                                name="termsAccepted"
+                                value="true"
+                                required
+                            >
+
+                            I accept the Terms & Conditions.
+
+                        </label>
+
+                    </fieldset>
+
+
+                    <div class="form-actions">
+
+                        <button type="submit">
+                            Register
+                        </button>
+
+                        <button type="reset" class="secondary-button">
+                            Clear Form
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <p>
+                &copy; 2026 Rajshree Sweets.
+            </p>
+
+            <p>
+                Traditional Taste. Premium Quality.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
